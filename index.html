@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Űrlap</title>
+</head>
+<body>
+    <main>
+        <header><h1>Űrlap</h1></header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Menü</a></li>
+                <li><a href="index.html">Menü</a></li>
+                <li><a href="index.html">Menü</a></li>
+            </ul>
+        </nav>
+        <article>
+            <form>
+                <fieldset>
+                    <legend>Személyes Adatok</legend>
+                
+                <div class="block">
+                    <label for="nev">Név</label>
+                    <input type="text" name="név" id="nev" placeholder="Vezetéknév Keresztnév"><!-- id és for megegyezik -->
+                </div>
+                <div class="block">
+                    <label for="psw">Password</label>
+                    <input type="password" name="psw" id="psw">
+                </div>    
+                <div class="block">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                </fieldset>
+                <fieldset>
+                <legend>Nem</legend>
+                <label for="ffi">Férfi</label> <input type="radio" name="nem" id="ffi " checked>
+                <label for="no">Nő</label>    <input type="radio" name="nem" id="no">
+                </fieldset>
+                <fieldset>
+                    <legend>Hobbi - Többet is kijelölhetsz</legend>
+                    <label for="bic">Bicajozás</label>
+                    <input type="checkbox" name="hobbi" id="bic"> <br>
+                    <label for="foto">Fotózás</label>    
+                    <input type="checkbox" name="hobbi" id="foto"> <br>
+                    <label for="zene">Zenélés</label>    
+                    <input type="checkbox" name="hobbi" id="zene">
+                        
+                </fieldset>
+                <fieldset>
+                    <legend>Filmek - válaszd ki a kedvenc filmed</legend>
+                    <label for="fightclub">Fight Club</label>
+                    <input type="checkbox" name="filmek" id="fightclub"> <br>
+                    <label for="remenyrabjai">Remény Rabjai</label>    
+                    <input type="checkbox" name="filmek" id="remenyrabjai"> <br>
+                    <label for="forrestgump">Forrest Gump</label>    
+                    <input type="checkbox" name="filmek" id="forrestgump">
+                        
+                </fieldset>
+                <div class="block">
+                    <input type="submit" value="Küld">
+                </div>
+                
+            </form>
+        </article>
+        <footer><p>Ivády Barnabás</p></footer>
+    </main>
+</body>
+</html>
